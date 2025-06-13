@@ -1,0 +1,10 @@
+
+Model Evaluation Summary:
+
+AUC on Validation Set: 0.9913
+AUC on Test Set: 0.9932
+
+Notes:
+- Model trained with Spark pipeline
+- Features: log-transformed + indexed categorical
+- Target: isFraud
