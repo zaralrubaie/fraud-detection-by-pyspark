@@ -5,11 +5,15 @@ This project uses **PySpark** to build a machine learning model for fraud detect
 
 ---
 
-## 📁 Project Files
+##Project Files
+`fraud-detection-by-pyspark.ipynb`  
+  ➤ The main Jupyter Notebook with full code: data loading, cleaning, feature engineering, model training, and evaluation.
 
-- `sampled_100k_fraud.csv`: A sampled and cleaned dataset used due to hardware constraints.
-- `part-00000-*.csv`: The output file containing predictions (predicted vs actual labels).
-- `predictions_val_vs_actual.txt`: A plain text log file showing sample predictions and their evaluation.
+- `predection results.csv`  
+  ➤ Contains predicted vs actual values for the validation set.
+
+- `model_evaluation_txt.txt`  
+  ➤ Text file summarizing evaluation results (AUC, accuracy, etc.).
 
 ---
 
@@ -26,5 +30,5 @@ To detect fraudulent transactions using machine learning with PySpark and practi
 
 ---
 # Challenges Faced
- 1. Data Volume can not be handled by the laptop that the model was created on
+Data Volume can not be handled by the laptop that the model was created on
 -
